@@ -1,3 +1,8 @@
 from django.db import models
 
 # Create your models here.
+class Experience(models.Model)
+	# Images
+	image = models.ImageField(upload_to='images/')
+	# Summary
+	summary = models.CharFeild(max_length=200)
