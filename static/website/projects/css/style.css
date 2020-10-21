@@ -29,12 +29,12 @@ body {
 }
 
 a {
-  color: #2c98f0;
+  color: #2c3f66;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #2c98f0;
+    color: #2c3f66;
     outline: none;
     text-decoration: none !important; }
 
@@ -106,15 +106,15 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #2c98f0; }
+  background: #2c3f66; }
 
 ::-moz-selection {
   color: #fff;
-  background: #2c98f0; }
+  background: #2c3f66; }
 
 ::selection {
   color: #fff;
-  background: #2c98f0; }
+  background: #2c3f66; }
 
 #colorlib-page {
   width: 100%;
@@ -128,7 +128,7 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-  background: #b22cff;
+  background: #457bd9; /*Background of side bar*/
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -150,7 +150,7 @@ figure {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
-border: 3px solid white;}
+border: 3px solid #fff;} /*Border around logo*/
 #colorlib-aside h1{
     font-family:sans-serif;
 }
@@ -169,7 +169,7 @@ border: 3px solid white;}
     #colorlib-aside #colorlib-logo a {
       display: block;
       text-align: center;
-      color: #000;
+      color: #000; /*Color name under logo*/
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
     display: block;
@@ -413,7 +413,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background: #b22cff;
+    background: #457bd9; /*Color of closed side tab*/
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -470,7 +470,7 @@ body.offcanvas {
     
 }
 #colorlib-footer2 .h2{
-    color: red;
+    color: blue; /*Dont know what this is yet!!!!!*/
     text-align: center;
 }
 
@@ -541,7 +541,7 @@ margin-left: 10px;}
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Quicksand", Arial, sans-serif;
-  background-color: #2c98f0;
+  background-color: #2c3f66;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -573,7 +573,7 @@ margin-left: 10px;}
   content: "\e114"; }
 
 .panel-heading a.collapsed {
-  background: #f2f3f7;
+  background: #a8dadc;
   border: 1px solid #e6e6e6 !important;
   color: #333333; }
 
@@ -605,7 +605,7 @@ margin-left: 10px;}
   position: absolute;
   display: block;
   width: 4px;
-  background: #f2f3f7;
+  background: #a8dadc;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -625,25 +625,25 @@ margin-left: 10px;}
   display: block;
   width: 40px;
   height: 40px;
-  background: #2c98f0;
+  background: #2c3f66;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
-  -moz-box-shadow: 0 0 0 5px #f2f3f7;
-  -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-  box-shadow: 0 0 0 5px #f2f3f7;
+  -moz-box-shadow: 0 0 0 5px #a8dadc;
+  -webkit-box-shadow: 0 0 0 5px #a8dadc;
+  box-shadow: 0 0 0 5px #a8dadc;
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-    background: #ec5453; }
+    background: #2c3f66; } /*dont know what this is yet???*/
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
     background: #f9bf3f; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
-    background: #a84cb8; }
+    background: #2c3f66; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
     background: #2fa499; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
@@ -654,7 +654,7 @@ margin-left: 10px;}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #f2f3f7;
+  background: #a8dadc;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -669,7 +669,7 @@ margin-left: 10px;}
   height: 0;
   border-style: solid;
   border-width: 9px 9px 9px 0;
-  border-color: transparent #f2f3f7 transparent transparent;
+  border-color: transparent #a8dadc transparent transparent;
   left: 0;
   top: 10px;
   margin-left: -9px; }
@@ -782,11 +782,11 @@ margin-left: 10px;}
   height: 6px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #f2f3f7;
+  background: #a8dadc;
   overflow: visible; }
 
 .progress-bar {
-  background: #2c98f0;
+  background: #2c3f66;
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 12px;
@@ -807,7 +807,7 @@ margin-left: 10px;}
     width: 10px;
     height: 10px;
     content: '';
-    background: #2c98f0;
+    background: #2c3f66;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -817,17 +817,17 @@ margin-left: 10px;}
     top: -22px;
     right: 0; }
   .progress-bar.color-1 {
-    background: #2c98f0; }
+    background: #2c3f66; }
     .progress-bar.color-1:after {
-      background: #2c98f0; }
+      background: #2c3f66; }
     .progress-bar.color-1 span {
-      color: #2c98f0; }
+      color: #2c3f66; }
   .progress-bar.color-2 {
-    background: #ec5453; }
+    background: #2c3f66; } /*check what this is????*/
     .progress-bar.color-2:after {
-      background: #ec5453; }
+      background: #2c3f66; }
     .progress-bar.color-2 span {
-      color: #ec5453; }
+      color: #2c3f66; }
   .progress-bar.color-3 {
     background: #f9bf3f; }
     .progress-bar.color-3:after {
@@ -853,11 +853,11 @@ margin-left: 10px;}
     .progress-bar.color-6 span {
       color: #4054b2; }
 .progress-bar.color-7 {
-    background: #ec5453; }
+    background: #2c3f66; } /*check what this is*/
     .progress-bar.color-7:after {
-      background: #ec5453; }
+      background: #2c3f66; }
     .progress-bar.color-7 span {
-      color: #ec5453; }
+      color: #2c3f66; }
   .progress-bar.color-8 {
     background: #f9bf3f; }
     .progress-bar.color-8:after {
@@ -885,7 +885,7 @@ margin-left: 10px;}
     height: 50px;
     display:table;
     text-align: center;
-    background: #f2f3f7;
+    background: #a8dadc;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -893,7 +893,7 @@ margin-left: 10px;}
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #2c98f0;
+      color: #2c3f66;
       font-size: 20px;
       height: 50px; }
       @media screen and (max-width: 1200px) {
@@ -915,7 +915,7 @@ margin-left: 10px;}
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
     margin-top: 10px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-    color: #2c98f0;
+    color: #2c3f66;
     font-size: 20px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
@@ -1010,7 +1010,7 @@ margin-left: 10px;}
       width: 100px;
       height: 100px;
       font-size: 50px;
-      color: #2c98f0;
+      color: #2c3f66;
       background: #fff;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -1062,7 +1062,7 @@ margin-left: 10px;}
         .colorlib-social li a {
           padding: 10px 8px; } }
       .colorlib-social li a:hover {
-        color: #2c98f0; }
+        color: #2c3f66; }
       .colorlib-social li a:hover, .colorlib-social li a:active, .colorlib-social li a:focus {
         outline: none;
         text-decoration: none;
@@ -1099,19 +1099,19 @@ margin-left: 10px;}
         -ms-border-radius: 2px;
         border-radius: 2px; }
       .pagination li a:hover, .pagination li a:focus {
-        background: #2c98f0;
+        background: #2c3f66;
         color: #fff;
-        border: 1px solid #2c98f0; }
+        border: 1px solid #2c3f66; }
       @media screen and (max-width: 768px) {
         .pagination li a {
           padding: 7px 15px; } }
     .pagination li.active a {
-      background: #2c98f0;
-      border: 1px solid #2c98f0 !important; }
+      background: #2c3f66;
+      border: 1px solid #2c3f66 !important; }
       .pagination li.active a:hover, .pagination li.active a:focus {
-        background: #2c98f0;
+        background: #2c3f66;
         color: #fff;
-        border: 1px solid #2c98f0 !important; }
+        border: 1px solid #2c3f66 !important; }
 
 
 .colorlib-nav-toggle {
@@ -1249,14 +1249,14 @@ margin-left: 10px;}
 /*-----------------footer---------------------*/
 
 footer h1{
-    color: #FA3675;
+    color: #457bd9;
     text-align: center;
     font-size: 40px;
     font-weight: 400;
     font-family:inherit;
 }
 footer p{
-    color: #FA3675;
+    color: #457bd9;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -1265,7 +1265,7 @@ footer p{
 footer i{
     font-size: 3em;
     text-align: center;
-    color: #FA3675;
+    color: #457bd9;
     font-weight: 400;
     margin-right: 20px;
     margin-left: 20px;
@@ -1273,7 +1273,7 @@ footer i{
 
 footer{
     width: 100%;
-    background-color: white;
+    background-color: #457bd9;
     padding:40px 0px;
     padding-top: 0px;
     padding-bottom: 0px;
