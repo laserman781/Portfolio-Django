@@ -3,6 +3,6 @@ from .models import Experience
 
 # Create your views here.
 def home(request):
-	experience = Experience.objects
-	return render(request, 'home.html', {'experience':experience})
+	experiences = Experience.objects
+	return render(request, 'home.html', {'website':experiences})
 
