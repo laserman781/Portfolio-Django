@@ -19,3 +19,4 @@ class Leadership(models.Model):
 	titledate = models.CharField(max_length=200)
 	#description
 	description = models.CharField(max_length=200)
+
