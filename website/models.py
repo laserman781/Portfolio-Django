@@ -7,19 +7,18 @@ class Experience(models.Model):
 	date = models.CharField(max_length=200)
 	#image = models.ImageField(upload_to='/images/', null=True)
 	# Summary
-	summary = models.CharField(max_length=200)
+	summary = models.TextField()
 
 class Awards(models.Model):
 	#Title
 	titledate = models.CharField(max_length=200)
 	#description
 	#image = models.ImageField(upload_to='images/', null=True)
-	description = models.CharField(max_length=200)
+	description = models.TextField()
 
 class Leadership(models.Model):
 	#Title
 	titledate = models.CharField(max_length=200)
 	#image = models.ImageField(upload_to='images/', null=True)
 	#description
-	description = models.CharField(max_length=200)
-
+	description = models.TextField()
